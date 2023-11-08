@@ -40,7 +40,6 @@ int main(void)
         if (scanf("%d %d", &basic, &transe) != 2 || basic < 0 || basic > 9 || transe < 0 || transe > 9)
         {
             printf("잘못된 입력입니다. 다시 입력해주세요.\n");
-            printf("\n");
             continue;
         }
 
