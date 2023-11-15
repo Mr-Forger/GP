@@ -1,6 +1,8 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <style>
         canvas {
@@ -11,15 +13,23 @@
 </head>
 <body>
     <div style="text-align:center;width:480px;">
-        <h2>Select Difficulty:</h2>
+        <pre>
+ _____   ___  ___  ___ _____ 
+|  __ \ / _ \ |  \/  ||  ___|
+| |  \// /_\ \| .  . || |__  
+| | __ |  _  || |\/| ||  __| 
+| |_\ \| | | || |  | || |___ 
+ \____/\_| |_/\_|  |_/\____/
+        </pre>
+        <h3>Select Difficulty</h3>
         <input type="radio" name="difficulty" value="easy" checked> Easy
-        <input type="radio" name="difficulty" value="medium"> Medium
+        <input type="radio" name="difficulty" value="normal"> Normal
         <input type="radio" name="difficulty" value="hard"> Hard
         <br><br>
-        <button onclick="startGame()">Start Game</button>
-        <button onclick="restartGame()">Restart Game</button>
+        <button onclick="startGame()">Start</button>
+        <button onclick="restartGame()">Restart</button>
         <br><br>
-        <p id="instructions">Use Arrow keys, WASD, or buttons below to move the red square.</p>
+        <p id="instructions">Control: Arrow Key, WASD, Button</p>
         <canvas id="gameCanvas" width="480" height="270"></canvas>
         <button onclick="moveup()">UP</button><br><br>
         <button onclick="moveleft()">LEFT</button>
@@ -29,10 +39,9 @@
             var myGamePiece;
             var myObstacles = [];
             var myScore;
-            var difficulty = "easy";  // Default difficulty
+            var difficulty = "easy";
 
             function startGame() {
-                // Get selected difficulty
                 var difficultyInputs = document.getElementsByName("difficulty");
                 for (var i = 0; i < difficultyInputs.length; i++) {
                     if (difficultyInputs[i].checked) {
@@ -41,13 +50,12 @@
                     }
                 }
 
-                // Initialize game based on selected difficulty
-                var obstacleSpeed = 1; // Default obstacle speed
+                var obstacleSpeed = 1;
                 switch (difficulty) {
                     case "easy":
                         obstacleSpeed = 1;
                         break;
-                    case "medium":
+                    case "normal":
                         obstacleSpeed = 2;
                         break;
                     case "hard":
@@ -55,7 +63,6 @@
                         break;
                 }
 
-                // Clear previous game state
                 if (myGameArea.interval) {
                     clearInterval(myGameArea.interval);
                     myGameArea.clear();
@@ -72,7 +79,7 @@
             }
 
             var myGameArea = {
-                canvas: document.getElementById("gameCanvas"),  // 참조 변경
+                canvas: document.getElementById("gameCanvas"),
                 start: function (obstacleSpeed) {
                     this.canvas.width = 480;
                     this.canvas.height = 270;
@@ -81,7 +88,6 @@
                     this.frameNo = 0;
                     this.interval = setInterval(updateGameArea, 20, obstacleSpeed);
                     
-                    // 키보드 이벤트 리스너 추가
                     window.addEventListener('keydown', function (e) {
                         myGameArea.key = e.keyCode;
                     });
@@ -130,12 +136,7 @@
                     var othertop = otherobj.y;
                     var otherbottom = otherobj.y + (otherobj.height);
                     var crash = true;
-                    if (
-                        mybottom < othertop ||
-                        mytop > otherbottom ||
-                        myright < otherleft ||
-                        myleft > otherright
-                    ) {
+                    if (mybottom < othertop || mytop > otherbottom || myright < otherleft || myleft > otherright) {
                         crash = false;
                     }
                     return crash;
@@ -170,17 +171,17 @@
                 }
                 myScore.text = "SCORE: " + myGameArea.frameNo;
                 myScore.update();
-                // 키보드 입력에 따라 이동
-                if (myGameArea.key && (myGameArea.key == 37 || myGameArea.key == 65)) { // Left arrow or 'A' key
+
+                if (myGameArea.key && (myGameArea.key == 37 || myGameArea.key == 65)) {
                     myGamePiece.speedX = -1;
                 }
-                if (myGameArea.key && (myGameArea.key == 39 || myGameArea.key == 68)) { // Right arrow or 'D' key
+                if (myGameArea.key && (myGameArea.key == 39 || myGameArea.key == 68)) {
                     myGamePiece.speedX = 1;
                 }
-                if (myGameArea.key && (myGameArea.key == 38 || myGameArea.key == 87)) { // Up arrow or 'W' key
+                if (myGameArea.key && (myGameArea.key == 38 || myGameArea.key == 87)) {
                     myGamePiece.speedY = -1;
                 }
-                if (myGameArea.key && (myGameArea.key == 40 || myGameArea.key == 83)) { // Down arrow or 'S' key
+                if (myGameArea.key && (myGameArea.key == 40 || myGameArea.key == 83)) {
                     myGamePiece.speedY = 1;
                 }
                 myGamePiece.newPos();
@@ -212,6 +213,7 @@
                 myGamePiece.speedY = 0;
             }
         </script>
+        <p>The score will count one point for each frame you manage to "stay alive".</p>
     </div>
 </body>
 </html>
