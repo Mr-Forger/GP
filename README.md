@@ -13,5 +13,9 @@
   - W3School의 HTML 게임 파트에 있는 코드를 분석 후 발표.
 ### [Week11_231115](https://github.com/Mr-Forger/GP/tree/main/Week11_231115)
   - 10주차에 분석한 HTML 게임을 업그레이드 한 후 발표.
-### [13주차]()
-  - UNITY PDF파일을 따라해 예제 제작 후 실행.
+### [Week12_231122](https://github.com/Mr-Forger/GP/tree/main/Week11_231122)
+  - UNITY PDF파일의 예제를 제작 후 업로드.
+### [Week13_231129](https://github.com/Mr-Forger/GP/tree/main/Week11_231129)
+  - UNITY PDF파일의 예제를 제작 후 업로드.
+### [Week14, 15_231206 ~ 231213 | Unity를 이용한 게임 제작](https://github.com/Mr-Forger/UnityProject)
+  - 허접한 예제를 하나 골라서 개선시켜 나만의 게임을 만들기.
