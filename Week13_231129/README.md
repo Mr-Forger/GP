@@ -1,5 +1,3 @@
-## PDF파일의 예제를 제작한 후 업로드.
+## PDF의 예제를 제작 후 업로드하기.
 
-
-![image](https://github.com/Mr-Forger/GP/assets/46594567/8cee68cc-458d-4110-801c-cb28e7dd9ca3)
-![image](https://github.com/Mr-Forger/GP/assets/46594567/9e186800-23d3-4a88-83e1-a78dfd8df473)
+![image](https://github.com/Mr-Forger/GP/assets/46594567/0e3fffd9-38d7-4ded-817a-8154428d929d)
