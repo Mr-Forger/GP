@@ -1,18 +1,17 @@
 # 23- 2 게임 프로그래밍
 
-### [3주차](https://github.com/ccihxn/game/tree/main/week3)
-  ![image](https://github.com/ccihxn/game/assets/35947666/9741a4c6-adab-4a66-993a-26020c152c93)
-  
-  - 해당 코드들을 git에 업로드 및 전반적인 출력 결과 화면을 readme 파일에 정리.
-### [4주차](https://github.com/ccihxn/game/tree/main/week4)
-  - 교수님의 C언어 수업 이후, 5주차에 분석 및 발표를 진행할 코드 선택
-### [5주차](https://github.com/ccihxn/game/tree/main/week5~6)
-  - 4주차에 선택한 코드를 분석 및 발표
-### [6주차](https://github.com/ccihxn/game/tree/main/week5~6)
-  - 5주차에 분석한 코드를 업그레이드 및 발표
-### [10주차](https://github.com/ccihxn/game/tree/main/week10)
-  - 교수님이 올려주신 링크 내의 html 게임을 분석 및 발표
-### [11주차](https://github.com/ccihxn/game/tree/main/week11)
-  - 10주차에 분석한 html 게임을 업그레이드 및 발표
-### [13주차](https://github.com/ccihxn/game/tree/main/week13)
-  - 교수님께서 내어주신 pdf파일의 코드를 unity에서 작성 및 실행
+### [Week3_230920](https://github.com/Mr-Forger/GP/tree/main/Week3_230920)
+  ![image](<img width="136" alt="image" src="https://github.com/Mr-Forger/GP/assets/46594567/8f88152d-000f-4b66-bbbf-84061f568d66">)
+  - 다음 코드를 github에 커밋 후 README.md파일에 출력 결과 띄우기.
+### [Week4_230927](https://github.com/Mr-Forger/GP/tree/main/Week4%2C%205_230927~231004)
+  - 5주차에 기능 추가를 할 코드 선정.
+### [Week5_231004](https://github.com/Mr-Forger/GP/tree/main/Week4%2C%205_230927~231004)
+  - 4주차에 선택한 코드를 개선 버전과 기능 추가 버전을 비교해서 발표.
+### [Week6_231011](https://github.com/Mr-Forger/GP/tree/main/Week6_231011)
+  - 5주차에서 선택한 개선시킬 코드를 선정 및 개선시킨 코드를 발표.
+### [Week10_231108](https://github.com/Mr-Forger/GP/tree/main/Week10_231108)
+  - W3School의 HTML 게임 파트에 있는 코드를 분석 후 발표.
+### [Week11_231115](https://github.com/Mr-Forger/GP/tree/main/Week11_231115)
+  - 10주차에 분석한 HTML 게임을 업그레이드 한 후 발표.
+### [13주차]()
+  - UNITY PDF파일을 따라해 예제 제작 후 실행.
