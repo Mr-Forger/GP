@@ -1,7 +1,7 @@
 # 23- 2 게임 프로그래밍
 
 ### [Week3_230920](https://github.com/Mr-Forger/GP/tree/main/Week3_230920)
-  ![image]("C:\Users\SeungHan Moon\OneDrive\바탕 화면\제목 없음.png")
+  ![제목 없음](https://github.com/Mr-Forger/GP/assets/46594567/50372b3b-f3a1-487f-ba72-669db4fe4bb3)
   - 다음 코드를 github에 커밋 후 README.md파일에 출력 결과 띄우기.
 ### [Week4_230927](https://github.com/Mr-Forger/GP/tree/main/Week4%2C%205_230927~231004)
   - 5주차에 기능 추가를 할 코드 선정.
