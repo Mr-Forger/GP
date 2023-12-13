@@ -1,3 +1,10 @@
+## HTML 게임 기능 추가
+### 기능 추가 사항
+* 아스키 아트 추가
+* 게임 시작, 재시작 버튼 추가
+* 난이도 라디오 버튼 추가
+* 방향키, WASD키로도 조작이 가능하게 변경
+
 ![슬라이드1](https://github.com/Mr-Forger/GP/assets/46594567/5ef080a6-9771-423d-8e0f-af36dccd20ef)
 ![슬라이드2](https://github.com/Mr-Forger/GP/assets/46594567/8839f037-a050-4a9a-9ea9-d664fa3ba97f)
 ![슬라이드3](https://github.com/Mr-Forger/GP/assets/46594567/5ef62b38-8665-4205-9212-9a446c1abdb6)
