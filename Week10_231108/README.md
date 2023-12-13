@@ -1,3 +1,10 @@
+## W3School HTML 게임 분석
+### 녹색 장애물을 피하며 점수를 획득하는 게임
+
+### 주요 기능
+* 화면에 있는 키를 눌러서 조작
+* 점수는 프레임 단위로 올라가는 형식
+
 ![슬라이드1](https://github.com/Mr-Forger/GP/assets/46594567/c04d00a2-3170-409e-8be0-1358c14c009f)
 ![슬라이드2](https://github.com/Mr-Forger/GP/assets/46594567/50a81d61-e374-4eb6-88f2-57bd1c22b0cb)
 ![슬라이드3](https://github.com/Mr-Forger/GP/assets/46594567/80f7bd68-747c-4450-b955-e2e78d024d24)
