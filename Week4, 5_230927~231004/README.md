@@ -1,3 +1,12 @@
+## 기존 코드
+* 첫 번째로 선택한 측정단위를 두 번째로 선택한 측정단위로 변환해주는 프로그램
+
+## 개선 사항
+* 인트로 화면 추가
+* 입력 검증 추가
+* 루프 추가
+
+
 ![슬라이드1](https://github.com/Mr-Forger/GP/assets/46594567/99eba3fe-318f-4413-b7c4-e535ac148513)
 ![슬라이드2](https://github.com/Mr-Forger/GP/assets/46594567/803dc7c2-e106-4adc-94ab-3dac2af4dcfd)
 ![슬라이드3](https://github.com/Mr-Forger/GP/assets/46594567/a9be81c1-175e-4780-9748-8e80e0e379c6)
